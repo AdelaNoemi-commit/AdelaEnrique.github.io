@@ -1,0 +1,75 @@
+#grad1 {height: 200px;
+    background-color: rgb(173, 55, 173);
+  background-image: linear-gradient(rgb(173, 55, 173),rgb(197, 141, 197) );}
+  .content {background-position: center;
+    background-color: rgb(197, 141, 197);
+    background-image: linear-gradient(rgb(197, 141, 197), rgb(173, 55, 173) );
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  padding: 20px;
+  font-size: large; }
+  
+    h1 {font-family: 'Cinzel', serif;
+      font-family: 'Dancing Script', cursive;
+      font-family: 'Pacifico', cursive;
+         font-weight: bold;
+  font-size: xxlarge;
+        background-color: rgb(200, 141, 197);
+      color: rgb(85, 7, 50); }
+      h1 { text-align: center;
+      white-space: nowrap; }
+  
+      p { text-align:left;
+  white-space: nowrap;
+        font-size: large;
+  font-family: sans-serif;
+    color:rgb(5, 61, 61); }
+  
+      h2 {font-size: large;
+        font-family: sans-serif;
+        font-weight: bold;
+      color: rgb(43, 8, 75);
+       text-align: center; }
+      h3, h4 {font-size: large;
+        font-family: sans-serif;
+        font-weight: bold;
+      color:rgb(43, 8, 75);
+       text-align: center;}
+  
+        img { border-radius: 50%;
+        max-height: 85%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;  }
+      
+  button {font-size: 20px; color: rgb(43, 8, 75);
+    padding: 5px 3px;
+    text-align: center;
+    border-radius: 20px;
+    border-radius: rgb(43, 8, 75); 
+    border-left: 1px solid;
+    border-right: 1px solid;
+    width: 200px; 
+    margin: 3px 2x;}
+
+  i {font-size: 55px; color: aqua;
+    text-align: center;
+    margin: 3px 2px;
+   }
+
+        .footer {background-color: rgb(124, 40, 124); 
+        text-align: center;
+        font-size: small;
+      padding: 10px;}
+      
+      @media screen and (max-width: 768px) {
+              .middle {display: flex;
+              flex-direction: column; }
+              .left ul {margin: 0;
+              padding: 20px;}
+              .left li {display: inline-table;}
+              .left,.right { 
+                      background: #da9fd0;
+                      width: 100%;}  }
